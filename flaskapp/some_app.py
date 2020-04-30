@@ -31,12 +31,12 @@ def data_to():
     return render_template('simple.html',some_str = some_str,some_value = some_value,some_pars=some_pars)
 
 
-from flask import request
+
 from flask_wtf import FlaskForm,RecaptchaField
 from wtforms import StringField, SubmitField, TextAreaField
 from wtforms.validators import DataRequired
 from flask_wtf.file import FileField, FileAllowed, FileRequired
-from werkzeug.utils import secure_filename
+
 
 app.config['RECAPTCHA_USE_SSL'] = False
 app.config['RECAPTCHA_PUBLIC_KEY'] = '6LfjAu8UAAAAAE26bYWIrgfxuhv96Ou7_vrfa-gs'
@@ -60,7 +60,7 @@ class NetForm(FlaskForm):
 
 
 
-
+from werkzeug.utils import secure_filename
 import os
 import net as neuronet
 @app.route("/net",methods=['GET', 'POST'])
@@ -80,6 +80,7 @@ def net():
 
     return render_template('net.html',form=form,image_name=filename,neurodic=neurodic)
 
+from flask import request
 from flask import Response
 import base64
 from PIL import Image
