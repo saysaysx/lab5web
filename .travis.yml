@@ -19,3 +19,8 @@ install:
 script:
   - cd flaskapp
   - ./st.sh
+deploy:
+  provider: heroku
+  app: "applfor"
+  api_key:
+    secure: "a683cff5-ddc2-473b-b39d-9de33f6f42e2"
