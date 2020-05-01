@@ -9,7 +9,7 @@ script:
   - cd flaskapp
 deploy:
   provider: heroku
-  buildpack: python
+  buildpack: set heroku/python
   api_key: d94c868d-5c6d-46d1-b1ee-af304d17fefc
   app:
     master: applfor
