@@ -1,1 +1,1 @@
-web: gunicorn flaskapp.wsgi:app -b 0.0.0.0:5000
+web: gunicorn wsgi:app -b 127.0.0.1:5000 --chdir ./flaskapp
