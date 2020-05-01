@@ -19,10 +19,4 @@ install:
 script:
   - cd flaskapp
   - ./st.sh
-deploy:
-  provider: heroku
-  api_key:
-    secure: 4b936134-9bda-45a8-a29d-ee9f18d8a417
-  app: applfor
-  on:
-    repo: saysaysx/lab5web
+
