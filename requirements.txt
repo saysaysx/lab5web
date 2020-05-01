@@ -1,0 +1,10 @@
+flask
+gunicorn
+requests
+flask-bootstrap
+flask-wtf
+flask-bootstrap
+pillow
+tensorflow==2.0.0-alpha0
+keras
+lxml
