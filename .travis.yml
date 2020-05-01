@@ -21,7 +21,6 @@ script:
   - ./st.sh
 deploy:
   provider: heroku
-  api_key:
-    sequre: "pODaaL/PhWpJLAlcLUV1qfj+SZgeWqQdWg9ruwB40eoZ2FdYWvSwc8lxTxIjGyTO+tFjLdOeqWPMW8g6NgOu+b4I4GCKdJwBO5WCZPxa7gSlJ06LKaiVmgKWoKObGHJD4AtrhEsxLWr7OEBZLJYytDH3JqFYo/P/0rALu+Z+IsuDY9J2NourOkq6Pt/9HBnHq0Wn+Cw0O5iIa4bcHmoHSx6JmPx31Y22sjTQlTdCfNaQTRfYm7AFCF5xmtwc5So810S+k4XuspbYHrs8Q6mmyHXKR+WIGR5Opg5E37Ljx6PNhkEBVojq1rWAaKAHt7HIj1TlsxhDmvrDe2X8bFqhfxrCNJwOvW1fqnNjFmJsd89dX9zePWgiLa/u5ACUDVvJ7hv6yRa3tJ8T7VMNXn5fN4JQlCBoyC9RaPX8GPNM3Cax7Bg1lCLDbbLtMMB+erPdS7hD7dO8J2rTc7xfVkYwhW1QO0w332kYUgciloaeHfJuYJW2RximAHXCiOoHLbQm4Uwt+uVEfFRWXGTl0bxXxWe5lAuI2m4XGlWSyb3/6PddppYznV0sefEr8kGpZ6P37k5QzP6wbg5y73T4Cs284gtFwCDPucrIwysgQjkeRhX6VDBx30mN4ZvNdnadBhTOEZ42KECp5yyT4kkyKwuQZmeLYGiJkAz2ZP1lRbUPNW8="
+  api_key: d94c868d-5c6d-46d1-b1ee-af304d17fefc
   app:
     master: applfor
