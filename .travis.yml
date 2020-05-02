@@ -9,6 +9,4 @@ deploy:
   provider: heroku:git
   api_key: adfcfdb2-ddaf-4bbb-b0d5-2a3aa9d85f4a
   app: applfor
-    on:
-      branch: master
   
