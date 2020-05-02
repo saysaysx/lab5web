@@ -6,7 +6,7 @@ install:
 script:
   - cd flaskapp
 deploy:
-  provider: heroku:git
+  provider: heroku
   api_key: adfcfdb2-ddaf-4bbb-b0d5-2a3aa9d85f4a
   app: applfor
   
