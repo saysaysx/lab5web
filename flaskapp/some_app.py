@@ -39,8 +39,8 @@ from flask_wtf.file import FileField, FileAllowed, FileRequired
 
 
 app.config['RECAPTCHA_USE_SSL'] = False
-app.config['RECAPTCHA_PUBLIC_KEY'] = '6LfjAu8UAAAAAE26bYWIrgfxuhv96Ou7_vrfa-gs'
-app.config['RECAPTCHA_PRIVATE_KEY'] = '6LfjAu8UAAAAAD6P8h0d9bDlzeIMtn3Mn5lAHIsh'
+app.config['RECAPTCHA_PUBLIC_KEY'] = '6LerYPEUAAAAAG4hhwu8djjem0KY2xd011Ki1gE5'
+app.config['RECAPTCHA_PRIVATE_KEY'] = '6LerYPEUAAAAABcN5lLC9bhTmM_ByEt1iK3uSd47'
 app.config['RECAPTCHA_OPTIONS'] = {'theme': 'white'}
 #app.config['UPLOAD_FOLDER'] = './data'
 #app.config['ALLOWED_EXTENSIONS'] = {'jpg','png','jpeg'}
